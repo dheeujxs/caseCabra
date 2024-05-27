@@ -21,7 +21,7 @@ function splitArray<T>(array: Array<T>,numParts: number) {
         const index = i % numParts
         if(!result[index]) {
             result[index] = []
-        }
+0        }
         result[index].push(array[i])
     }
     return result;
@@ -115,6 +115,7 @@ function ReviewGrid() {
                  <div className=" pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-slate-100" />
                  
                  </div>
+                 
             )
 
 }
